@@ -2,7 +2,7 @@
 
 % docker, container
 
-#plateform/multiple #target/local #cat/UTILS 
+#plateform/multiple #target/local #cat/DOCKER
 
 ## Remove all images without at least one container associated to them
 docker image prune -a
