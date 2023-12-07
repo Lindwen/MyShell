@@ -11,7 +11,7 @@ docker image prune -a
 docker exec -it <container> <command>
 
 ## Displays CPU and memory usage statistics of running Docker containers or all containers (if specified) in a table format, showing container ID, CPU percentage, and memory usage
-docker stats --no-stream --format "table {{.Container}}\t{{.CPUPerc}}\t{{.MemUsage}}" <container|--all>
+docker stats --no-stream --format "table {{.Container}}\t{{.Name}}\t{{.CPUPerc}}\t{{.MemUsage}}" <container|--all>
 
 % docker-compose
 
